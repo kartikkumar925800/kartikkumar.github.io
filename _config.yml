@@ -2,5 +2,5 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Kartik Kumar 
-description: This is a portfolio website to allow people to connect with the owner.
+description: 4th-year BTech CSE Student | Full-Stack Developer | React • Java Spring Boot • SQL | Passionate about automation tools & smart systems
 show_downloads: true
