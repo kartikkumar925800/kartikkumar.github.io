@@ -6,6 +6,7 @@ layout: default   # usually not needed, but safe to add
 
 **Final-year BTech CSE student**  
 Full-Stack Developer |Ex intern @IBM PBEL| Java, react, SQL| Emerging Tech Innovator| Passionate about technology to automate tasks to ease everday life.
+<a href="assets/Kartik_Kumar Resume.docx" class="btn btn-primary" download>Download CV</a>
 
 ### Skills
 - **Frontend**: React, JavaScript
