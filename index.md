@@ -1,12 +1,32 @@
 ---
 layout: default   # usually not needed, but safe to add
 ---
+<div style="display: flex; align-items: center; gap: 30px; margin-bottom: 40px; flex-wrap: wrap;">
+  <!-- Left: Profile photo -->
+  <div>
+    <img src="images/profile.jpeg" alt="Kartik Kumar" 
+         style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid #0366d6;">
+  </div>
+  
 
-# Kartik Kumar (images/profile.jpg){: width="180" height="180" style="border-radius:50%;"}
-
-**Final-year BTech CSE student**  
-Full-Stack Developer |Ex intern @IBM PBEL| Java, react, SQL| Emerging Tech Innovator| Passionate about technology to automate tasks to ease everday life.
-<a href="assets/Kartik_Kumar Resume.docx" class="btn btn-primary" download>Download CV</a>
+  <div>
+    <h1 style="margin: 0; color: #0366d6;">Kartik Kumar</h1>
+    
+    <p style="margin: 8px 0; font-size: 1.2em; font-weight: bold;">
+      Final-year BTech CSE Student | Full-Stack Developer
+    </p>
+    <p>
+      Passionate about React • Java Spring Boot • SQL | Building automation tools & smart systems to simplify everyday life.<br>
+      Ex-intern @IBM PBL | Emerging Tech Innovator
+    </p>
+    
+    <!-- Download CV button below the image/text area -->
+    <a href="assets/Kartik_Kumar Resume.docx" 
+       style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+      Download CV
+    </a>
+  </div>
+</div>
 
 ### Skills
 - **Frontend**: React, JavaScript
