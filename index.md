@@ -1,23 +1,38 @@
 ---
 layout: default   # usually not needed, but safe to add
 ---
-<div class="hero-section">
-  <img src="images/profile.jpeg" alt="Kartik Kumar">
+<div style="text-align: center; padding: 60px 20px 40px; max-width: 900px; margin: 0 auto;">
+  <!-- Profile photo - smaller and centered -->
+  <img src="images/profile.jpeg" alt="Kartik Kumar"
+       style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 4px solid #0366d6; margin-bottom: 30px;">
 
-  <blockquote>
+  <!-- Quote - centered, better readability -->
+  <blockquote style="font-size: 1.5rem; font-style: italic; margin: 0 0 30px; line-height: 1.5; max-width: 800px; margin-left: auto; margin-right: auto; color: #333;">
     "I am kind when I choose to be, not because you deserve it, not because I expect anything in return, but because it is my choice."
   </blockquote>
 
-  <h1>Kartik Kumar</h1>
+  <!-- Name - big, centered -->
+  <h1 style="margin: 0 0 10px; font-size: 2.8rem; color: #0366d6;">
+    Kartik Kumar
+  </h1>
 
-  <p>Final-year BTech CSE Student | Full-Stack Developer</p>
+  <!-- Tagline & skills summary - centered -->
+  <p style="font-size: 1.3rem; margin: 0 0 20px; color: #444;">
+    Final-year BTech CSE Student | Full-Stack Developer
+  </p>
 
-  <p>React • Java Spring Boot • SQL | Passionate about automation tools & smart systems</p>
+  <p style="font-size: 1.1rem; margin: 0 0 30px; color: #555;">
+    React • Java Spring Boot • SQL | Ex Intern @IBM PBEL | Passionate about automation tools & smart systems
+  </p>
 
-  <a href="assets/Kartik_Kumar Resume.docx" class="btn-cv">Download my CV</a>
+  <!-- Download button - centered, nicer style -->
+  <a href="assets/Kartik_Kumar Resume.docx" 
+     style="display: inline-block; padding: 12px 32px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 1.1rem;">
+    Download my CV
+  </a>
 </div>
 
-<hr style="border: 0; height: 1px; background: rgba(255,255,255,0.1); margin: 60px 0;">
+<hr style="border: 0; height: 1px; background: #ddd; margin: 60px auto; max-width: 800px;">
 
 ### Skills
 - **Frontend**: React, JavaScript
