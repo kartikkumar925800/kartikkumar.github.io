@@ -2,7 +2,7 @@
 layout: default   # usually not needed, but safe to add
 ---
 
-# Kartik Kumar
+# Kartik Kumar (images/profile.jpg){: width="180" height="180" style="border-radius:50%;"}
 
 **Final-year BTech CSE student**  
 Full-Stack Developer |Ex intern @IBM PBEL| Java, react, SQL| Emerging Tech Innovator| Passionate about technology to automate tasks to ease everday life.
