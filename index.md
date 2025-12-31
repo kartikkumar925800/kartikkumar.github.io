@@ -8,26 +8,29 @@ layout: default   # usually not needed, but safe to add
          style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid #0366d6;">
   </div>
   
-
+  <!-- Right: Motivational quote + your name + short bio + Download button -->
   <div>
-    <h1 style="margin: 0; color: #0366d6;">Kartik Kumar</h1>
+    <h1 style="margin: 0; color: #0366d6; font-size: 2.2em; font-weight: bold; line-height: 1.2;">
+      Build things that matter
+    </h1>
     
-    <p style="margin: 8px 0; font-size: 1.2em; font-weight: bold;">
-      Final-year BTech CSE Student | Full-Stack Developer
-    </p>
-    <p>
-      Passionate about React • Java Spring Boot • SQL | Building automation tools & smart systems to simplify everyday life.<br>
-      Ex-intern @IBM PBL | Emerging Tech Innovator
+    <p style="margin: 8px 0; font-size: 1.3em; font-weight: bold;">
+      Kartik Kumar
     </p>
     
-    <!-- Download CV button below the image/text area -->
+    <p style="margin: 8px 0; font-size: 1.1em;">
+      Final-year BTech CSE Student | Full-Stack Developer<br>
+      React • Java Spring Boot • SQL | Passionate about automation tools & smart systems
+    </p>
+    
     <a href="assets/Kartik_Kumar Resume.docx" 
        style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
-      Download CV
+      Download my CV
     </a>
   </div>
 </div>
 
+<hr style="margin: 40px 0;">
 ### Skills
 - **Frontend**: React, JavaScript
 - **Backend**: Java, Spring Boot,
