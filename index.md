@@ -11,7 +11,7 @@ layout: default   # usually not needed, but safe to add
   <!-- Right: Motivational quote + your name + short bio + Download button -->
   <div>
     <h1 style="margin: 0; color: #0366d6; font-size: 2.2em; font-weight: bold; line-height: 1.2;">
-      Build things that matter
+      I am kind when I choose to be, not because you deserve it, not because I expect anything in return, but because it is my choice.
     </h1>
     
     <p style="margin: 8px 0; font-size: 1.3em; font-weight: bold;">
