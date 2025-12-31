@@ -1,6 +1,6 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0   # keep for now or...
+# Better alternative (cleaner, supports more):
+# remote_theme: jekyll/minima
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Kartik Kumar 
-description: 4th-year BTech CSE Student | Full-Stack Developer | React • Java Spring Boot • SQL | Passionate about automation tools & smart systems
-show_downloads: true
+  - jekyll-remote-theme
+show_downloads: false
