@@ -1,6 +1,9 @@
 ---
 layout: default   # usually not needed, but safe to add
 ---
+<style>
+  .site-footer { display: none !important; }
+</style>
 <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 40px; flex-wrap: wrap;">
   <!-- Left: Profile photo -->
   <div>
@@ -52,10 +55,39 @@ Dronacharya Group of Institutions,Greater Noida — 2022-2026
 
 
 ### Contact
-Email: k.kartikkumar8527@gmail.com
-GitHub: github.com/kartikkumar925800
-LinkedIN: linkedin.com/in/kartikkumar925800
-Phone: +91 8527746727 (Timing 10:00am to 8:00pm) 
-LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+
+<div style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            color: #1a1a1a; 
+            line-height: 1.8; 
+            max-width: 600px; 
+            margin: 2em auto 3em; 
+            padding: 0 1em;">
+
+  <p><strong>Email</strong><br>
+     <a href="mailto:k.kartikkumar8527@gmail.com">k.kartikkumar8527@gmail.com</a></p>
+
+  <p><strong>GitHub</strong><br>
+     <a href="https://github.com/kartikkumar925800">github.com/kartikkumar925800</a></p>
+
+  <p><strong>LinkedIn</strong><br>
+     <a href="https://www.linkedin.com/in/kartikkumar925800">linkedin.com/in/kartikkumar925800</a></p>
+
+  <p><strong>Phone</strong><br>
+     +91 85277 46727 (10:00 AM – 8:00 PM IST)</p>
+
+  <p style="margin-top: 2em;">
+    <a href="Kartik-Kumar-Resume.pdf" 
+       style="display: inline-block; 
+              padding: 12px 28px; 
+              background-color: #0366d6; 
+              color: white; 
+              text-decoration: none; 
+              border-radius: 6px; 
+              font-weight: 600; 
+              transition: background-color 0.2s;">
+      Download my CV
+    </a>
+  </p>
+</div>
 
 Download my [Resume (PDF)](https://your-resume-link-here.pdf)
