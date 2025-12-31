@@ -2,7 +2,7 @@
 layout: default   # usually not needed, but safe to add
 ---
 <div class="hero-section">
-  <img src="images/profile.jpeg" alt="Kartik Kumar">
+  <img src="images/profile.jpg" alt="Kartik Kumar">
 
   <blockquote>
     "I am kind when I choose to be, not because you deserve it, not because I expect anything in return, but because it is my choice."
@@ -12,7 +12,7 @@ layout: default   # usually not needed, but safe to add
 
   <p>Final-year BTech CSE Student | Full-Stack Developer</p>
 
-  <p>React • Java Spring Boot • SQL | Ex intern @ IBM PBEL | Likes to automate the boring and create the extraordinary</p>
+  <p>React • Java Spring Boot • SQL | Passionate about automation tools & smart systems</p>
 
   <a href="assets/Kartik_Kumar Resume.docx" class="btn-cv">Download my CV</a>
 </div>
