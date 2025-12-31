@@ -1,6 +1,12 @@
-remote_theme: pages-themes/minimal@v0.2.0   # keep for now or...
-# Better alternative (cleaner, supports more):
-# remote_theme: jekyll/minima
+title: Kartik Kumar
+description: Final-year BTech CSE | Full-Stack Developer | React • Spring Boot • SQL
+
+remote_theme: jekyll/minima
+
 plugins:
   - jekyll-remote-theme
+
+# Optional: choose a skin (minima has several nicer ones)
+minima:
+  skin: solarized   # or classic, dark, auto (tries system preference)
 show_downloads: false
