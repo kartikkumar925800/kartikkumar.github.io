@@ -2,7 +2,7 @@
 layout: default   # usually not needed, but safe to add
 ---
 <div class="hero-section">
-  <img src="images/profile.jpg" alt="Kartik Kumar">
+  <img src="images/profile.jpeg" alt="Kartik Kumar">
 
   <blockquote>
     "I am kind when I choose to be, not because you deserve it, not because I expect anything in return, but because it is my choice."
