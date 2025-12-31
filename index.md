@@ -1,39 +1,24 @@
 ---
 layout: default   # usually not needed, but safe to add
 ---
-<style>
-  .site-footer { display: none !important; }
-</style>
-<div style="display: flex; align-items: center; gap: 30px; margin-bottom: 40px; flex-wrap: wrap;">
-  <!-- Left: Profile photo -->
-  <div>
-    <img src="images/profile.jpeg" alt="Kartik Kumar" 
-         style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid #0366d6;">
-  </div>
-  
-  <!-- Right: Motivational quote + your name + short bio + Download button -->
-  <div>
-    <h1 style="margin: 0; color: #0366d6; font-size: 2.2em; font-weight: bold; line-height: 1.2;">
-      I am kind when I choose to be, not because you deserve it, not because I expect anything in return, but because it is my choice.
-    </h1>
-    
-    <p style="margin: 8px 0; font-size: 1.3em; font-weight: bold;">
-      Kartik Kumar
-    </p>
-    
-    <p style="margin: 8px 0; font-size: 1.1em;">
-      Final-year BTech CSE Student | Full-Stack Developer<br>
-      React • Java Spring Boot • SQL | Passionate about automation tools & smart systems
-    </p>
-    
-    <a href="assets/Kartik_Kumar Resume.docx" 
-       style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
-      Download my CV
-    </a>
-  </div>
+<div class="hero-section">
+  <img src="images/profile.jpeg" alt="Kartik Kumar">
+
+  <blockquote>
+    "I am kind when I choose to be, not because you deserve it, not because I expect anything in return, but because it is my choice."
+  </blockquote>
+
+  <h1>Kartik Kumar</h1>
+
+  <p>Final-year BTech CSE Student | Full-Stack Developer</p>
+
+  <p>React • Java Spring Boot • SQL | Ex intern @ IBM PBEL | Likes to automate the boring and create the extraordinary</p>
+
+  <a href="assets/Kartik_Kumar Resume.docx" class="btn-cv">Download my CV</a>
 </div>
 
-<hr style="margin: 40px 0;">
+<hr style="border: 0; height: 1px; background: rgba(255,255,255,0.1); margin: 60px 0;">
+
 ### Skills
 - **Frontend**: React, JavaScript
 - **Backend**: Java, Spring Boot,
