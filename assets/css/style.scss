@@ -1,0 +1,17 @@
+---
+--- // Front matter required for Jekyll to process the file
+
+@import "{{ site.theme | default: 'minima' }}";
+
+// Hide GitHub Pages auto-generated buttons (ZIP / TAR / View on GitHub)
+.site-header-download,
+.btn.btn-outline-light.btn-sm,  // sometimes used for buttons
+a[href*="archive/refs/heads/"],   // ZIP/TAR links
+.gh-header-actions {              // View on GitHub area
+  display: none !important;
+}
+
+// Optional: also hide the entire footer if still visible (maintenance credit)
+.site-footer {
+  display: none !important;
+}
