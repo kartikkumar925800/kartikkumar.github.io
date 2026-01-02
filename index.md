@@ -38,22 +38,37 @@ layout: default
 <div data-aos="fade-up" data-aos-delay="700">
 ### Skills
 
-**Frontend**  
-React, JavaScript
+<div class="skill-category">
+  <strong>Frontend</strong>
+  <span class="skill-tag">React</span>
+  <span class="skill-tag">JavaScript</span>
+</div>
 
-**Backend**  
-Java, Spring Boot
+<div class="skill-category">
+  <strong>Backend</strong>
+  <span class="skill-tag">Java</span>
+  <span class="skill-tag">Spring Boot</span>
+</div>
 
-**Database**  
-SQL, MySQL, MongoDB
+<div class="skill-category">
+  <strong>Database</strong>
+  <span class="skill-tag">SQL</span>
+  <span class="skill-tag">MySQL</span>
+  <span class="skill-tag">MongoDB</span>
+</div>
 
-**Tools**  
-Git, VS Code
+<div class="skill-category">
+  <strong>Tools</strong>
+  <span class="skill-tag">Git</span>
+  <span class="skill-tag">VS Code</span>
+</div>
 </div>
 
 <div data-aos="fade-up" data-aos-delay="800">
 ### Featured Projects
-**Prep AI – AI-Powered Interview Preparation Platform** (In Progress)  
+
+**Prep AI – AI-Powered Interview Preparation Platform** (In Progress)
+
 Identifying limitations in traditional interview preparation methods, which often lack personalization and actionable feedback.  
 Leveraging technologies including Natural Language Processing (NLP), JavaScript, SQL, Machine Learning, and Java to build core functionalities.  
 Enabling individuals to engage in interview practice that is customized to their profiles, improving preparation efficiency and confidence.
@@ -61,14 +76,17 @@ Enabling individuals to engage in interview practice that is customized to their
 
 <div data-aos="fade-up" data-aos-delay="900">
 ### Education
+
 **BTech Computer Science & Engineering (4th year)**  
-Dronacharya Group of Institutions, Greater Noida — 2022–2026  
-- Among the top 15% of the batch 2022–2026 with 0 backlogs.  
+Dronacharya Group of Institutions, Greater Noida — 2022–2026
+
+- Among the top 15% of the batch 2022–2026 with 0 backlogs.
 - Proficient in Java and frontend development, with a solid foundation in Data Structures & Algorithms and exposure to areas such as Machine Learning, Cybersecurity, Big Data, and Database Management.
 </div>
 
 <div data-aos="fade-up" data-aos-delay="1000">
 ### Contact
+
 <div style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             color: #1a1a1a;
             line-height: 1.8;
@@ -86,5 +104,7 @@ Dronacharya Group of Institutions, Greater Noida — 2022–2026
 
   <p><strong>Phone</strong><br>
      +91 85277 46727 (10:00 AM – 8:00 PM IST)</p>
+</div>
+</div>
 </div>
 </div>
