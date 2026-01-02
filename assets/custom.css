@@ -10,6 +10,16 @@
   justify-content: center;
   align-items: center;
 }
+.skill-tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 6px 14px;
+  margin: 6px 8px 6px 0;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
 
 .hero-section img {
   width: 180px;
@@ -19,6 +29,7 @@
   margin-bottom: 30px;
   object-fit: cover;
 }
+
 
 .hero-section blockquote {
   font-size: 1.8rem;
