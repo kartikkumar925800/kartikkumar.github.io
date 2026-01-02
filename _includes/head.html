@@ -5,7 +5,16 @@
 
   <!-- SEO and other defaults from minima -->
   {%- seo -%}
-
+<!-- AOS for fade-in animations -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,    // fade speed (ms)
+    once: true,       // animate only once
+    easing: 'ease-out'
+  });
+</script>
   <!-- Your existing minima stylesheet -->
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
