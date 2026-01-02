@@ -37,15 +37,23 @@ layout: default
 
 <div data-aos="fade-up" data-aos-delay="700">
 ### Skills
-- **Frontend**: React, JavaScript
-- **Backend**: Java, Spring Boot
-- **Database**: SQL, MySQL, MongoDB
-- **Tools**: Git, VS Code
+
+**Frontend**  
+<span class="skill-tag">React</span><span class="skill-tag">JavaScript</span>
+
+**Backend**  
+<span class="skill-tag">Java</span><span class="skill-tag">Spring Boot</span>
+
+**Database**  
+<span class="skill-tag">SQL</span><span class="skill-tag">MySQL</span><span class="skill-tag">MongoDB</span>
+
+**Tools**  
+<span class="skill-tag">Git</span><span class="skill-tag">VS Code</span>
 </div>
 
 <div data-aos="fade-up" data-aos-delay="800">
 ### Featured Projects
-**Prep AI – AI-Powered Interview Preparation Platform**  
+**Prep AI – AI-Powered Interview Preparation Platform(In Progress)**  
 Identifying limitations in traditional interview preparation methods, which often lack personalization and actionable feedback.  
 Leveraging technologies including Natural Language Processing (NLP), JavaScript, SQL, Machine Learning, and Java to build core functionalities.  
 Enabling individuals to engage in interview practice that is customized to their profiles, improving preparation efficiency and confidence.
