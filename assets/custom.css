@@ -1,4 +1,13 @@
-/* Custom styles for hero section */
+/* Custom styles - overrides and additions for Minima theme */
+
+/* Global font override - choose ONE (comment out the one you don't want) */
+* {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  /* OR use Poppins if you prefer bolder look */
+  /* font-family: 'Poppins', sans-serif !important; */
+}
+
+/* Hero section - use this class in index.md instead of inline styles */
 .hero-section {
   background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   color: white;
@@ -10,6 +19,57 @@
   justify-content: center;
   align-items: center;
 }
+
+.hero-section img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid rgba(255,255,255,0.3);
+  margin-bottom: 30px;
+  object-fit: cover;
+}
+
+.hero-section blockquote {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0 auto 30px;
+  max-width: 900px;
+  font-style: italic;
+  opacity: 0.95;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-size: 1.3rem;
+  margin: 0 0 30px;
+  opacity: 0.9;
+}
+
+/* Nice CV button */
+.btn-cv {
+  background-color: #00d4ff;
+  color: #0f2027;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,212,255,0.4);
+}
+
+.btn-cv:hover {
+  background-color: #00eaff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,212,255,0.6);
+}
+
+/* Skills pills/tags - clean blue version */
 .skill-category {
   margin-bottom: 1.5rem;
 }
@@ -38,68 +98,4 @@
   background-color: #cce5ff;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.skill-tag {
-  display: inline-block;
-  background-color: #f0f0f0;
-  color: #333;
-  padding: 6px 14px;
-  margin: 6px 8px 6px 0;
-  border-radius: 20px;
-  font-size: 0.95rem;
-  font-weight: 500;
-}
-
-.hero-section img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 4px solid rgba(255,255,255,0.3);
-  margin-bottom: 30px;
-  object-fit: cover;
-}
-
-
-.hero-section blockquote {
-  font-size: 1.8rem;
-  font-weight: 500;
-  line-height: 1.4;
-  margin: 0 auto 30px;
-  max-width: 900px;
-  font-style: italic;
-  opacity: 0.95;
-}
-
-.hero-section h1 {
-  font-size: 3rem;
-  margin: 0 0 20px;
-  font-weight: 700;
-}
-
-.hero-section p {
-  font-size: 1.3rem;
-  margin: 0 0 30px;
-  opacity: 0.9;
-}
-
-.btn-cv {
-  background-color: #00d4ff;
-  color: #0f2027;
-  padding: 14px 32px;
-  border-radius: 50px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,212,255,0.4);
-}
-
-.btn-cv:hover {
-  background-color: #00eaff;
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0,212,255,0.6);
-}
-
-/* Global font override */
-* {
-  font-family: 'Poppins', sans-serif !important;
 }
