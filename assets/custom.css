@@ -10,6 +10,35 @@
   justify-content: center;
   align-items: center;
 }
+.skill-category {
+  margin-bottom: 1.5rem;
+}
+
+.skill-category strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #0366d6;
+}
+
+.skill-tag {
+  display: inline-block;
+  background-color: #e6f3ff;
+  color: #0056b3;
+  padding: 6px 14px;
+  margin: 6px 8px 6px 0;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid #b3d4fc;
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  background-color: #cce5ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 .skill-tag {
   display: inline-block;
   background-color: #f0f0f0;
