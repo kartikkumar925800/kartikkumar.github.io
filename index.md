@@ -23,7 +23,7 @@ layout: default
   </p>
 
   <p data-aos="fade-up" data-aos-delay="500" style="font-size: 1.2rem; margin: 0 0 40px; color: #555; max-width: 700px; margin-left: auto; margin-right: auto;">
-    React • Java Spring Boot • SQL | Ex Intern @IBM PBEL | Passionate about automation tools & smart systems
+    React • Java Spring Boot • SQL | Ex Intern @IBM PBEL | Passionate about developing technologies
   </p>
 
   <!-- Download button -->
