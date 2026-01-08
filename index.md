@@ -40,7 +40,7 @@ layout: default
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; margin-bottom: 40px;">
       <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; border: 1px solid #e0e0e0; text-align: center;">
         <strong style="display: block; font-size: 1.3rem; margin-bottom: 12px; color: #0366d6;">Frontend</strong>
-        React, JavaScript
+        React, JavaScript, Wordpress, Elementor
       </div>
 
       <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; border: 1px solid #e0e0e0; text-align: center;">
