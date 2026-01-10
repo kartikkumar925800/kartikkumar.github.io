@@ -4,7 +4,7 @@ layout: default
 
 <div data-aos="fade-up" data-aos-delay="100" style="text-align: center; padding: 90px 20px 70px; max-width: 1100px; margin: 0 auto;">
   <!-- Profile photo -->
-  <img src="images/profile2.jpeg" alt="Kartik Kumar"
+  <img src="images/profile2.jpg" alt="Kartik Kumar"
        style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 5px solid #0366d6; margin-bottom: 45px; box-shadow: 0 10px 30px rgba(0,0,0,0.12);">
 
   <!-- Quote -->
