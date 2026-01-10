@@ -116,12 +116,18 @@ layout: default
         <li>JavaScript Development – Udemy (Jul 2023)</li>
         <li>MongoDB & SQL Bootcamp (Sep 2024)</li>
         <li>Git and GitHub – Udemy (Jan 2023)</li>
-        <li>Excel for Productivity – Udemy (Jun 2023)  
-           <a href="https://drive.google.com/drive/folders/1sIlPmWskZfG5-hOrZWie-rnia0bfRHH9" target="_blank" style="color: #0366d6; text-decoration: none; font-weight: 600; margin-left: 10px;">View Certificates (Google Drive)</a>
-        </li>
-      </ul>
-    </div>
+        <li>Excel for Productivity – Udemy (Jun 2023)</li>
+    </ul>
+
+    <!-- This will appear BELOW the list -->
+    <p style="margin: 0; text-align: center;">
+      <a href="https://drive.google.com/drive/folders/1sIlPmWskZfG5-hOrZWie-rnia0bfRHH9" target="_blank" 
+         style="color: #0366d6; text-decoration: none; font-weight: 600; font-size: 1.1rem; padding: 8px 16px; border: 2px solid #0366d6; border-radius: 6px; transition: all 0.3s ease;">
+        View All Certificates (Google Drive)
+      </a>
+    </p>
   </div>
+</div>
 
   <!-- Contact -->
   <div data-aos="fade-up" data-aos-delay="1000">
