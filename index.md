@@ -117,7 +117,7 @@ layout: default
         <li>MongoDB & SQL Bootcamp (Sep 2024)</li>
         <li>Git and GitHub – Udemy (Jan 2023)</li>
         <li>Excel for Productivity – Udemy (Jun 2023)  
-           <a href="https://drive.google.com/drive/folders/1sIlPmWskZfG5-hOrZWie-rnia0bfRHH9" target="_blank" style="color: #0366d6; text-decoration: none; font-weight: 600;">View Certificates (Google Drive)</a>
+           <a href="https://drive.google.com/drive/folders/1sIlPmWskZfG5-hOrZWie-rnia0bfRHH9" target="_blank" style="color: #0366d6; text-decoration: none; font-weight: 600; margin-left: 10px;">View Certificates (Google Drive)</a>
         </li>
       </ul>
     </div>
@@ -126,36 +126,26 @@ layout: default
   <!-- Contact -->
   <div data-aos="fade-up" data-aos-delay="1000">
     <h2 style="font-size: 2.4rem; color: #0366d6; margin: 80px 0 30px; text-align: center; font-weight: 700;">Contact</h2>
-    <div style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-                color: #1a1a1a;
-                line-height: 1.9;
-                max-width: 650px;
-                margin: 0 auto 4em;
-                padding: 40px;
-                background: #ffffff;
-                border-radius: 12px;
-                border: 1px solid #e8ecef;
-                box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-                text-align: center;">
-      <p style="margin: 0 0 20px;">
-        <strong>Email</strong><br>
-        <a href="mailto:k.kartikkumar8527@gmail.com" style="color: #0366d6; text-decoration: none;">k.kartikkumar8527@gmail.com</a>
-      </p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 800px; margin: 0 auto 4em;">
+      <a href="mailto:k.kartikkumar8527@gmail.com" style="display: inline-block; padding: 14px 28px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; min-width: 200px; text-align: center; box-shadow: 0 4px 12px rgba(3,102,214,0.2); transition: all 0.3s ease;">
+        Email
+      </a>
 
-      <p style="margin: 0 0 20px;">
-        <strong>GitHub</strong><br>
-        <a href="https://github.com/kartikkumar925800" style="color: #0366d6; text-decoration: none;">github.com/kartikkumar925800</a>
-      </p>
+      <a href="https://github.com/kartikkumar925800" target="_blank" style="display: inline-block; padding: 14px 28px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; min-width: 200px; text-align: center; box-shadow: 0 4px 12px rgba(3,102,214,0.2); transition: all 0.3s ease;">
+        GitHub
+      </a>
 
-      <p style="margin: 0 0 20px;">
-        <strong>LinkedIn</strong><br>
-        <a href="https://www.linkedin.com/in/kartikkumar925800" style="color: #0366d6; text-decoration: none;">linkedin.com/in/kartikkumar925800</a>
-      </p>
+      <a href="https://www.linkedin.com/in/kartikkumar925800" target="_blank" style="display: inline-block; padding: 14px 28px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; min-width: 200px; text-align: center; box-shadow: 0 4px 12px rgba(3,102,214,0.2); transition: all 0.3s ease;">
+        LinkedIn
+      </a>
 
-      <p style="margin: 0;">
-        <strong>Phone</strong><br>
-        +91 85277 46727 (10:00 AM – 8:00 PM IST)
-      </p>
+      <a href="https://leetcode.com/u/kartik17090" target="_blank" style="display: inline-block; padding: 14px 28px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; min-width: 200px; text-align: center; box-shadow: 0 4px 12px rgba(3,102,214,0.2); transition: all 0.3s ease;">
+        LeetCode
+      </a>
+
+      <a href="tel:+918527746727" style="display: inline-block; padding: 14px 28px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; min-width: 200px; text-align: center; box-shadow: 0 4px 12px rgba(3,102,214,0.2); transition: all 0.3s ease;">
+        Phone: +91 85277 46727
+      </a>
     </div>
   </div>
 </div>
