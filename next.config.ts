@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  // REMOVED basePath and assetPrefix because this is a User Page repo
+  // No basePath or assetPrefix needed for a [username].github.io repo!
   images: {
     unoptimized: true,
   },
