@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  // No basePath or assetPrefix needed for a [username].github.io repo!
+  basePath: '/kartikkumar.github.io',
+  assetPrefix: '/kartikkumar.github.io/',
   images: {
     unoptimized: true,
   },
