@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Kartik Kumar | Software Developer Portfolio
 
-## Getting Started
+[![Live Demo](https://img.shields.io/badge/Live_Website-View_Here-blue?style=for-the-badge&logo=vercel)](https://kartikkumar925800.github.io/)
 
-First, run the development server:
+Welcome to the repository for my personal portfolio! [cite_start]I am a Software Developer currently pursuing my Bachelor’s degree in Computer Science and Engineering (2022–2026)[cite: 4, 9]. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I engineered this portfolio from the ground up to move beyond standard templates and build a custom architecture that truly reflects my capabilities. It serves as a digital showcase of my technical skills, enterprise-level internships, and ongoing development projects.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎥 Project Showcase
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*(Drag and drop your screen-recording video file right here in the GitHub editor!)*
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Tech Stack Architecture
+Instead of a simple static page, I built this using a modern, scalable stack to ensure high performance and fluid UI interactions:
+* **Framework:** Next.js (React)
+* **Styling:** Tailwind CSS v4
+* **Animations:** Framer Motion
+* **Language:** TypeScript
+* **Deployment:** GitHub Actions & GitHub Pages
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 What's Inside?
+This portfolio highlights my core competencies and professional journey, including:
+* [cite_start]**The Skills Grid:** A breakdown of my technical arsenal including Java, Node.js, Python, React, MySQL, MongoDB, and PostgreSQL.
+* [cite_start]**Enterprise Experience:** Details on my Full-Stack Java Internship at AMDOX and my Cybersecurity Internship at IBM (Threat Analysis & Network Breach Counterstrategies)[cite: 30, 32, 33].
+* [cite_start]**Prep AI Showcase:** A deep dive into my current major project, an AI-powered interview preparation platform leveraging Natural Language Processing (NLP), Machine Learning, JavaScript, SQL, and Java[cite: 36, 38].
+   ```bash
+   git clone [https://github.com/kartikkumar925800/kartikkumar.github.io.git](https://github.com/kartikkumar925800/kartikkumar.github.io.git)
