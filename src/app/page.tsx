@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Terminal, Briefcase, Code2, Sparkles, Cpu, ShieldCheck, Database, Layers, CheckCircle2 } from "lucide-react";
 
-// Use an empty string for the root domain
+// Root domain means no prefix is needed
 const BASE_PATH = ''; 
 
 const GithubIcon = () => (
@@ -15,100 +15,105 @@ const LinkedinIcon = () => (
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#020617] text-slate-200 selection:bg-blue-500/30 overflow-x-hidden font-sans">
+    <main className="min-h-screen bg-[#030712] text-slate-200 selection:bg-blue-500/30 overflow-x-hidden font-sans">
       
-      {/* 1. SLIM NAVIGATION */}
-      <nav className="fixed top-0 left-0 w-full z-[100] border-b border-white/5 bg-slate-950/80 backdrop-blur-lg px-6 h-16 flex items-center justify-between">
+      {/* 1. STABLE NAVIGATION */}
+      <nav className="fixed top-0 left-0 w-full z-[100] border-b border-white/5 bg-slate-950/90 backdrop-blur-md px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 bg-blue-600 rounded-md flex items-center justify-center font-bold text-white text-xs">K</div>
-          <span className="text-sm font-black tracking-tighter uppercase italic">KARTIK<span className="text-blue-500">.</span></span>
+          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-white shadow-lg">K</div>
+          <span className="text-xl font-black tracking-tighter uppercase italic">KARTIK<span className="text-blue-500">.</span></span>
         </div>
         
-        <div className="hidden md:flex items-center gap-8 text-[9px] font-bold uppercase tracking-[0.2em] text-slate-500">
+        <div className="hidden md:flex items-center gap-12 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
           <a href="#experience" className="hover:text-blue-400 transition-colors">Experience</a>
           <a href="#projects" className="hover:text-white transition-colors">Projects</a>
           <a href="#skills" className="hover:text-white transition-colors">Skills</a>
         </div>
 
-        <a href="mailto:k.kartikkumar8527@gmail.com" className="bg-white text-black px-4 py-2 rounded-lg text-[9px] font-black uppercase hover:bg-blue-600 hover:text-white transition-all">
-          Contact
+        <a href="mailto:k.kartikkumar8527@gmail.com" className="bg-blue-600 text-white px-6 py-2.5 rounded-xl text-[10px] font-black uppercase hover:bg-blue-500 transition-all shadow-lg">
+          Connect
         </a>
       </nav>
 
-      {/* 2. BALANCED HERO SECTION */}
-      <section className="relative pt-48 pb-24 px-6 max-w-5xl mx-auto flex flex-col items-center md:items-start text-center md:text-left">
+      {/* 2. BREATHING HERO SECTION */}
+      <section className="relative pt-56 pb-40 px-6 max-w-6xl mx-auto flex flex-col items-center md:items-start text-center md:text-left">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[9px] font-bold tracking-widest uppercase mb-8">
-            <Sparkles size={10} /> Final Year B.Tech CSE • Java Specialist
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-black tracking-widest uppercase mb-12">
+            <Sparkles size={12} className="animate-pulse" /> Ex-AMDOX Intern • B.Tech CSE 2026
           </div>
           
-          <h1 className="text-5xl md:text-8xl font-black tracking-tighter mb-8 leading-[0.9] uppercase">
+          <h1 className="text-6xl md:text-[9rem] font-black tracking-tighter mb-10 leading-[0.85] uppercase">
             Full-Stack <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-600 italic">Architect.</span>
           </h1>
 
-          <p className="text-base md:text-lg text-slate-400 max-w-xl mb-12 leading-relaxed font-medium mx-auto md:mx-0">
-            I’m <span className="text-white">Kartik Kumar</span>. I build high-performance Java ecosystems. Engineering <span className="text-blue-400 font-bold">PrepAI</span> to redefine technical interview prep.
+          <p className="text-xl text-slate-400 max-w-2xl mb-14 leading-relaxed font-medium mx-auto md:mx-0">
+            I’m <span className="text-white">Kartik Kumar</span>. I build high-performance Java ecosystems. Engineering <span className="text-white font-bold underline underline-offset-8 decoration-blue-500/50">PrepAI</span> to transform technical interview prep.
           </p>
 
-          <div className="flex flex-wrap justify-center md:justify-start gap-4">
-            <a href="#projects" className="px-8 py-4 bg-white text-black rounded-xl font-bold hover:scale-105 transition-all shadow-xl flex items-center gap-2 text-sm uppercase">
-              Explore Projects <Code2 size={16} />
+          <div className="flex flex-wrap justify-center md:justify-start gap-6">
+            <a href="#projects" className="px-10 py-5 bg-white text-black rounded-2xl font-bold hover:scale-105 transition-all shadow-2xl flex items-center gap-2 text-lg uppercase">
+              Explore Projects <Code2 size={20} />
             </a>
-            <div className="flex gap-2">
-              <a href="https://github.com/kartikkumar925800" target="_blank" className="p-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all"><GithubIcon /></a>
-              <a href="https://linkedin.com/in/kartikkumar925800" target="_blank" className="p-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all"><LinkedinIcon /></a>
+            <div className="flex gap-4">
+              <a href="https://github.com/kartikkumar925800" target="_blank" className="p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all shadow-xl group">
+                <div className="group-hover:scale-110 group-hover:text-blue-400 transition-all"><GithubIcon /></div>
+              </a>
+              <a href="https://linkedin.com/in/kartikkumar925800" target="_blank" className="p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all shadow-xl group">
+                <div className="group-hover:scale-110 group-hover:text-blue-400 transition-all"><LinkedinIcon /></div>
+              </a>
             </div>
           </div>
         </motion.div>
       </section>
 
-      {/* 3. EXPERIENCE SECTION */}
-      <section id="experience" className="py-24 px-6 max-w-5xl mx-auto border-t border-white/5">
-        <h2 className="text-[9px] font-black mb-4 text-blue-500 tracking-[0.4em] uppercase">Professional</h2>
-        <h2 className="text-4xl font-black mb-16 flex items-center gap-4 tracking-tighter italic uppercase">
+      {/* 3. PROFESSIONAL EXPERIENCE (No Overlap) */}
+      <section id="experience" className="py-32 px-6 max-w-6xl mx-auto border-t border-white/5">
+        <h2 className="text-4xl md:text-5xl font-black mb-20 flex items-center gap-4 tracking-tighter italic uppercase underline decoration-blue-500/30">
           <Terminal size={32} /> EXPERIENCE
         </h2>
 
-        <motion.div className="p-10 rounded-[3rem] bg-slate-900/40 border border-slate-800 hover:border-blue-500/30 transition-all shadow-2xl">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
-            <div>
-              <h3 className="text-4xl font-black tracking-tight uppercase">AMDOX</h3>
-              <p className="text-blue-500 font-black text-sm mt-2 uppercase tracking-widest">Full-Stack Java Intern</p>
+        <div className="grid gap-16">
+          <motion.div className="group relative p-12 rounded-[3.5rem] bg-slate-900/40 border border-slate-800 hover:border-blue-500/30 transition-all shadow-2xl overflow-hidden">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
+              <div>
+                <h3 className="text-5xl font-black tracking-tight uppercase group-hover:text-blue-400 transition-colors italic">AMDOX</h3>
+                <p className="text-blue-500 font-black text-sm mt-2 uppercase tracking-widest">Full-Stack Java Intern • 2026</p>
+              </div>
+              <div className="px-5 py-2 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-[10px] font-black uppercase tracking-widest">Double Certified</div>
             </div>
-            <div className="mt-4 md:mt-0 px-4 py-1.5 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-[8px] font-black uppercase tracking-widest">Double Certified</div>
-          </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <p className="text-slate-400 text-lg leading-relaxed">
-                Engineered an enterprise-grade <span className="text-white font-bold italic">Task Management Tool</span>. Optimized complex Spring Boot workflows and managed large-scale data schema in MySQL.
-              </p>
-              <div className="space-y-3">
-                {["Developed REST APIs", "Optimized MySQL schema", "Mastered Git workflows"].map((item, i) => (
-                  <div key={i} className="flex items-center gap-3 text-xs text-slate-500 font-bold uppercase">
-                    <CheckCircle2 size={14} className="text-blue-500" /> {item}
-                  </div>
-                ))}
+            <div className="grid lg:grid-cols-2 gap-20 items-center">
+              <div className="space-y-8">
+                <p className="text-slate-400 text-xl leading-relaxed">
+                  Engineered an enterprise-grade <span className="text-white font-bold italic">Task Management Tool</span>. Optimized complex data workflows and mastered production Git ecosystems.
+                </p>
+                <div className="space-y-4">
+                  {["Developed RESTful APIs", "Optimized MySQL indexing", "Mastered Git workflows"].map((item, i) => (
+                    <div key={i} className="flex items-center gap-4 text-xs text-slate-500 font-bold uppercase tracking-widest">
+                      <CheckCircle2 size={16} className="text-blue-500" /> {item}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* CONSTRAINED DUAL CERTIFICATE GALLERY */}
+              <div className="relative h-[300px] md:h-[380px] w-full group/gallery">
+                <motion.div whileHover={{ x: -30, rotate: -8, zIndex: 30 }} className="absolute top-12 right-0 w-[90%] aspect-video rounded-3xl bg-slate-800 border border-slate-700 overflow-hidden shadow-2xl transition-all opacity-40 group-hover/gallery:opacity-100 z-10">
+                  <img src={`${BASE_PATH}/amdox-training.jpeg`} alt="Training" className="w-full h-full object-cover" />
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.05, zIndex: 40 }} className="absolute top-0 left-0 w-[90%] aspect-video rounded-3xl bg-slate-950 border border-blue-500/30 overflow-hidden shadow-2xl transition-all z-20">
+                  <img src={`${BASE_PATH}/amdox-intern.jpeg`} alt="Internship" className="w-full h-full object-cover" />
+                </motion.div>
               </div>
             </div>
-
-            {/* DUAL CERTIFICATE GALLERY (Fixed Sizing) */}
-            <div className="relative h-[250px] w-full group/gallery">
-              <motion.div whileHover={{ x: -20, rotate: -5 }} className="absolute top-10 right-0 w-[85%] aspect-video rounded-2xl bg-slate-800 border border-slate-700 overflow-hidden shadow-2xl transition-all opacity-40 group-hover/gallery:opacity-100">
-                <img src={`${BASE_PATH}/amdox-training.jpeg`} alt="Training" className="w-full h-full object-cover" />
-              </motion.div>
-              <motion.div whileHover={{ scale: 1.05 }} className="absolute top-0 left-0 w-[85%] aspect-video rounded-2xl bg-slate-950 border border-blue-500/30 overflow-hidden shadow-2xl transition-all">
-                <img src={`${BASE_PATH}/amdox-intern.jpeg`} alt="Internship" className="w-full h-full object-cover" />
-              </motion.div>
-            </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </section>
 
       {/* FOOTER */}
-      <footer className="py-24 text-center border-t border-white/5 bg-slate-950/40">
-        <p className="text-[10px] font-black uppercase tracking-[0.8em] opacity-30">© 2026 Kartik Kumar • Engineered in India</p>
+      <footer className="py-32 text-center border-t border-white/5 bg-slate-950/40">
+        <p className="text-[10px] font-black uppercase tracking-[1em] opacity-30">© 2026 Kartik Kumar • Engineered in India</p>
       </footer>
 
     </main>
