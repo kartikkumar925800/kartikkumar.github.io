@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ExternalLink, Terminal, Briefcase, Code2, Sparkles, Cpu, ShieldCheck, Database, Layers, CheckCircle2 } from "lucide-react";
 
 // --- Configuration ---
-const BASE_PATH = '/kartikkumar925800.github.io'; // Ensures images load on GitHub Pages
+const BASE_PATH = ''; // Ensures images load on GitHub Pages
 
 // --- Custom Brand Icons ---
 const GithubIcon = () => (
