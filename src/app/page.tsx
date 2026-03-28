@@ -73,8 +73,7 @@ export default function Home() {
           <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }} className="relative w-56 h-56 md:w-80 md:h-80 rounded-[3rem] border border-slate-800 bg-slate-900/50 overflow-hidden shadow-2xl group flex items-center justify-center flex-shrink-0">
              {/* Fallback icon in case image doesn't load immediately */}
              <User size={60} className="text-slate-700 absolute" />
-             <img src={`${BASE_PATH}/Profile.jpeg`} alt="Kartik Kumar" className="relative z-10 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-             <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+<img src="/kartikkumar.github.io/Profile.jpeg" alt="Kartik" className="relative z-10 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />             <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           </motion.div>
 
         </div>
@@ -114,10 +113,10 @@ export default function Home() {
               {/* AMDOX CERTIFICATES */}
               <div className="relative h-[250px] md:h-[300px] w-full group/gallery">
                 <motion.div whileHover={{ x: -30, rotate: -8, zIndex: 30 }} className="absolute top-12 right-0 w-[90%] aspect-video rounded-3xl bg-slate-800 border border-slate-700 overflow-hidden shadow-2xl transition-all opacity-40 group-hover/gallery:opacity-100 z-10">
-                  <img src={`${BASE_PATH}/amdox-training.jpeg`} alt="Training" className="w-full h-full object-cover" />
+                  <img src="/kartikkumar.github.io/amdox-training.jpeg" alt="Training" className="w-full h-full object-cover" />
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05, zIndex: 40 }} className="absolute top-0 left-0 w-[90%] aspect-video rounded-3xl bg-slate-950 border border-blue-500/30 overflow-hidden shadow-2xl transition-all z-20">
-                  <img src={`${BASE_PATH}/amdox-intern.jpeg`} alt="Internship" className="w-full h-full object-cover" />
+                  <img src="/kartikkumar.github.io/amdox-intern.jpeg" alt="Internship" className="w-full h-full object-cover" />
                 </motion.div>
               </div>
             </div>
@@ -150,7 +149,7 @@ export default function Home() {
               {/* IBM CERTIFICATE */}
               <div className="relative h-[250px] md:h-[300px] w-full">
                 <motion.div whileHover={{ scale: 1.05 }} className="w-full h-full rounded-3xl bg-slate-950 border border-indigo-500/30 overflow-hidden shadow-2xl transition-all">
-                  <img src={`${BASE_PATH}/ibm-cert.jpeg`} alt="IBM Certificate" className="w-full h-full object-cover" />
+                  <img src="/kartikkumar.github.io/ibm-cert.jpeg" alt="IBM Certificate" className="w-full h-full object-cover" />
                 </motion.div>
               </div>
             </div>
