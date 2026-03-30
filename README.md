@@ -1,4 +1,4 @@
-#  Kartik Kumar | Software Developer Portfolio
+#  Kartik Kumar |  Software Developer Portfolio
 
 [![Live Demo](https://img.shields.io/badge/Live_Website-View_Here-blue?style=for-the-badge&logo=vercel)](https://kartikkumar925800.github.io/kartikkumar.github.io/)
 
