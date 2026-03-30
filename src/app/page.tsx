@@ -59,7 +59,7 @@ export default function Home() {
               <a href="#projects" className="px-8 py-4 bg-white text-black rounded-xl font-bold hover:scale-105 transition-all shadow-xl flex items-center gap-2 text-sm uppercase">
                 Explore Work <Code2 size={16} />
               </a>
-              <a href="/Resume.pdf" download className="px-8 py-4 bg-slate-800 text-white rounded-xl font-bold hover:bg-slate-700 hover:scale-105 transition-all shadow-xl flex items-center gap-2 text-sm uppercase border border-slate-700">
+              <a href="/kartikkumar.github.io/Resume.pdf" download className="px-8 py-4 bg-slate-800 text-white rounded-xl font-bold hover:bg-slate-700 hover:scale-105 transition-all shadow-xl flex items-center gap-2 text-sm uppercase border border-slate-700">
                 Download Resume <Download size={16} />
               </a>
               <div className="flex gap-3 w-full lg:w-auto justify-center lg:justify-start mt-4 lg:mt-0">
