@@ -43,7 +43,7 @@ export default function Home() {
           
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="flex-1">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-black tracking-widest uppercase mb-10">
-              <Sparkles size={12} className="animate-pulse" /> EX-IBM & AMDOX • Software Engineer
+              <Sparkles size={12} className="animate-pulse" /> SOFTWARE ENGINEER @ AMDOX • EX-IBM
             </div>
             
             <h1 className="text-5xl md:text-[7rem] font-black tracking-tighter mb-8 leading-[0.9] uppercase">
@@ -134,7 +134,7 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* AMDOX CARD */}
+          {/* AMDOX CARD (IMAGES REMOVED) */}
           <motion.div className="group relative p-12 rounded-[3.5rem] bg-slate-900/40 border border-slate-800 hover:border-blue-500/30 transition-all shadow-2xl overflow-hidden">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
               <div>
@@ -144,31 +144,22 @@ export default function Home() {
             </div>
 
             <div className="grid lg:grid-cols-2 gap-20 items-center">
-              <div className="space-y-8">
+              <div className="space-y-8 lg:col-span-2">
                 <p className="text-slate-400 text-xl leading-relaxed">
                   Implementing scalable backend architectures and robust full-stack solutions to drive <span className="text-white font-bold italic">enterprise-level applications</span> and reduce data retrieval latency.
                 </p>
-                <div className="space-y-4">
+                <div className="grid md:grid-cols-3 gap-4">
                   {["Developed secure RESTful APIs (Java/Spring)", "Optimized complex SQL database queries", "Spearheaded frontend component integration"].map((item, i) => (
                     <div key={i} className="flex items-center gap-4 text-xs text-slate-500 font-bold uppercase tracking-widest">
-                      <CheckCircle2 size={16} className="text-blue-500" /> {item}
+                      <CheckCircle2 size={16} className="text-blue-500 flex-shrink-0" /> {item}
                     </div>
                   ))}
                 </div>
               </div>
-
-              <div className="relative h-[250px] md:h-[300px] w-full group/gallery">
-                <motion.div whileHover={{ x: -30, rotate: -8, zIndex: 30 }} className="absolute top-12 right-0 w-[90%] aspect-video rounded-3xl bg-slate-800 border border-slate-700 overflow-hidden shadow-2xl transition-all opacity-40 group-hover/gallery:opacity-100 z-10">
-                  <img src="/kartikkumar.github.io/amdox-training.jpeg" alt="Training" className="w-full h-full object-cover" />
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.05, zIndex: 40 }} className="absolute top-0 left-0 w-[90%] aspect-video rounded-3xl bg-slate-950 border border-blue-500/30 overflow-hidden shadow-2xl transition-all z-20">
-                  <img src="/kartikkumar.github.io/amdox-intern.jpeg" alt="Engineering" className="w-full h-full object-cover" />
-                </motion.div>
-              </div>
             </div>
           </motion.div>
 
-          {/* IBM CARD */}
+          {/* IBM CARD (CERTIFICATE REMOVED) */}
           <motion.div className="group relative p-12 rounded-[3.5rem] bg-slate-900/20 border border-slate-800 hover:border-indigo-500/30 transition-all shadow-2xl overflow-hidden">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
               <div>
@@ -179,23 +170,17 @@ export default function Home() {
             </div>
 
             <div className="grid lg:grid-cols-2 gap-20 items-center">
-              <div className="space-y-8">
+              <div className="space-y-8 lg:col-span-2">
                 <p className="text-slate-400 text-xl leading-relaxed">
                   Provided specialized network security consulting, focusing on proactive threat mitigation, vulnerability management, and <span className="text-white font-bold italic">defensive architectural strengthening</span>.
                 </p>
-                <div className="space-y-4">
-                  {["Spearheaded enterprise threat analysis", "Designed advanced network breach simulations", "Engineered custom automated Python/Wireshark utilities"].map((item, i) => (
+                <div className="grid md:grid-cols-3 gap-4">
+                  {["Spearheaded enterprise threat analysis", "Designed advanced network breach simulations", "Engineered custom Python/Wireshark utilities"].map((item, i) => (
                     <div key={i} className="flex items-center gap-4 text-xs text-slate-500 font-bold uppercase tracking-widest">
-                      <CheckCircle2 size={16} className="text-indigo-500" /> {item}
+                      <CheckCircle2 size={16} className="text-indigo-500 flex-shrink-0" /> {item}
                     </div>
                   ))}
                 </div>
-              </div>
-
-              <div className="relative h-[250px] md:h-[300px] w-full">
-                <motion.div whileHover={{ scale: 1.05 }} className="w-full h-full rounded-3xl bg-slate-950 border border-indigo-500/30 overflow-hidden shadow-2xl transition-all">
-                  <img src="/kartikkumar.github.io/ibm-cert.jpeg" alt="IBM Certificate" className="w-full h-full object-cover" />
-                </motion.div>
               </div>
             </div>
           </motion.div>
@@ -278,9 +263,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="py-24 text-center border-t border-white/5 bg-slate-950/40">
-        <p className="text-[10px] font-black uppercase tracking-[1em] opacity-30">© 2026 Kartik Kumar • Engineered in India</p>
+      {/* FOOTER WITH NEW CTA */}
+      <footer className="py-24 text-center border-t border-white/5 bg-slate-950/40 relative">
+        <div className="max-w-2xl mx-auto mb-16 px-6 relative z-10">
+          <h2 className="text-3xl md:text-4xl font-black italic uppercase mb-6 tracking-tight">Ready to scale your architecture?</h2>
+          <p className="text-slate-400 mb-8 text-lg">Currently accepting freelance consulting opportunities for enterprise-level Java and Next.js applications.</p>
+          <a href="mailto:k.kartikkumar8527@gmail.com" className="inline-flex items-center gap-3 px-8 py-4 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-500 hover:scale-105 transition-all shadow-[0_0_30px_-5px_rgba(37,99,235,0.4)] uppercase tracking-widest text-sm">
+            Initiate Contact <Terminal size={18} />
+          </a>
+        </div>
+        <p className="text-[10px] font-black uppercase tracking-[1em] opacity-30 relative z-10">© 2026 KARTIK KUMAR • ARCHITECTED IN NEXT.JS</p>
       </footer>
 
     </main>
