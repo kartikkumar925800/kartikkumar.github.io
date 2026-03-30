@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { ExternalLink, Terminal, Code2, Sparkles, ShieldCheck, CheckCircle2, User, Database, Layout, Cpu, Globe } from "lucide-react";
+import { ExternalLink, Terminal, Code2, Sparkles, ShieldCheck, CheckCircle2, User, Database, Layout, Cpu, Globe, Download } from "lucide-react";
 
 // --- Custom Brand Icons ---
 const GithubIcon = () => (
@@ -43,7 +43,7 @@ export default function Home() {
           
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="flex-1">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-black tracking-widest uppercase mb-10">
-              <Sparkles size={12} className="animate-pulse" /> B.Tech CSE 2026 • Top 15% Batch
+              <Sparkles size={12} className="animate-pulse" /> EX-IBM & AMDOX • Software Engineer
             </div>
             
             <h1 className="text-5xl md:text-[7rem] font-black tracking-tighter mb-8 leading-[0.9] uppercase">
@@ -52,31 +52,32 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed font-medium mx-auto lg:mx-0">
-              Hello, I am <span className="text-white font-bold">Kartik</span>, a Software Developer specializing in <span className="text-blue-400">Java systems</span> and responsive frontend architectures. Currently engineering <span className="text-white font-bold underline underline-offset-8 decoration-blue-500/50">PrepAI</span> to redefine technical interview prep.
+              Hello, I am <span className="text-white font-bold">Kartik</span>, a Software Engineer specializing in <span className="text-blue-400">scalable full-stack architectures</span> and enterprise-level backend systems. Currently architecting high-performance solutions utilizing Java, Spring Boot, and modern Next.js environments.
             </p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
               <a href="#projects" className="px-8 py-4 bg-white text-black rounded-xl font-bold hover:scale-105 transition-all shadow-xl flex items-center gap-2 text-sm uppercase">
                 Explore Work <Code2 size={16} />
               </a>
-              <div className="flex gap-3">
+              <a href="/Resume.pdf" download className="px-8 py-4 bg-slate-800 text-white rounded-xl font-bold hover:bg-slate-700 hover:scale-105 transition-all shadow-xl flex items-center gap-2 text-sm uppercase border border-slate-700">
+                Download Resume <Download size={16} />
+              </a>
+              <div className="flex gap-3 w-full lg:w-auto justify-center lg:justify-start mt-4 lg:mt-0">
                 <a href="https://github.com/kartikkumar925800" target="_blank" className="p-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all group"><GithubIcon /></a>
                 <a href="https://linkedin.com/in/kartikkumar925800" target="_blank" className="p-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all group"><LinkedinIcon /></a>
-                <a href="mailto:k.kartikkumar8527@gmail.com" className="p-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all group"><EmailIcon /></a>
               </div>
             </div>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.2 }} className="relative w-56 h-56 md:w-80 md:h-80 rounded-[3rem] border border-slate-800 bg-slate-900/50 overflow-hidden shadow-2xl group flex items-center justify-center flex-shrink-0">
              <User size={60} className="text-slate-700 absolute" />
-             {/* HARDCODED IMAGE PATH */}
              <img src="/kartikkumar.github.io/Profile.jpeg" alt="Kartik Kumar" className="relative z-10 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
           </motion.div>
 
         </div>
       </section>
 
-      {/* 3. SKILLS SECTION (Built from your Resume) */}
+      {/* 3. SKILLS SECTION */}
       <section id="skills" className="py-24 px-6 max-w-6xl mx-auto border-t border-white/5">
         <h2 className="text-[10px] font-black mb-4 text-emerald-500 tracking-[0.4em] uppercase">Technical Arsenal</h2>
         <h2 className="text-4xl md:text-5xl font-black mb-16 flex items-center gap-4 tracking-tighter italic uppercase underline decoration-emerald-500/30">
@@ -85,10 +86,10 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { title: "Backend Systems", icon: <Terminal size={24} className="mb-4 text-blue-400" />, skills: "Java, Node.js, Python, Express, Django" },
-            { title: "Frontend & UI", icon: <Layout size={24} className="mb-4 text-purple-400" />, skills: "React, JavaScript, Tailwind, Next.js" },
-            { title: "Databases", icon: <Database size={24} className="mb-4 text-emerald-400" />, skills: "MySQL, MongoDB, PostgreSQL" },
-            { title: "DevOps & Tools", icon: <Globe size={24} className="mb-4 text-indigo-400" />, skills: "Git, GitHub, Cloud Basics, Testing" }
+            { title: "Backend Systems", icon: <Terminal size={24} className="mb-4 text-blue-400" />, skills: "Java, Spring Boot, Python, REST APIs, Microservices" },
+            { title: "Frontend & UI", icon: <Layout size={24} className="mb-4 text-purple-400" />, skills: "Next.js, React, TypeScript, Tailwind CSS v4" },
+            { title: "Databases", icon: <Database size={24} className="mb-4 text-emerald-400" />, skills: "SQL, MySQL, MongoDB, PostgreSQL" },
+            { title: "Architecture & Sec", icon: <Globe size={24} className="mb-4 text-indigo-400" />, skills: "DSA, Threat Analysis, Git/GitHub, Cloud Deployments" }
           ].map((category, i) => (
             <motion.div key={i} whileHover={{ y: -5 }} className="p-8 rounded-[2rem] bg-slate-900/40 border border-slate-800 hover:border-blue-500/30 transition-all shadow-xl">
               {category.icon}
@@ -107,22 +108,48 @@ export default function Home() {
         </h2>
 
         <div className="grid gap-16">
+          
+          {/* STEALTH STARTUP CARD */}
+          <motion.div className="group relative p-12 rounded-[3.5rem] bg-slate-900/40 border border-slate-800 hover:border-emerald-500/30 transition-all shadow-2xl overflow-hidden">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
+              <div>
+                <h3 className="text-4xl font-black tracking-tight uppercase group-hover:text-emerald-400 transition-colors italic">STEALTH STARTUP</h3>
+                <p className="text-emerald-500 font-black text-sm mt-2 uppercase tracking-widest">Freelance Consulting • Jan 2025 - Present</p>
+              </div>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-20 items-center">
+              <div className="space-y-8 lg:col-span-2">
+                <p className="text-slate-400 text-xl leading-relaxed">
+                  Providing end-to-end full-stack consulting for early-stage enterprise applications, specializing in <span className="text-white font-bold italic">Java, Spring Boot, and Next.js</span> architectures.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4">
+                  {["Architected Whiteboard-to-Code translation engine", "Designed PrepAI sentiment analysis platform", "Optimized complex database schemas", "Implemented scalable API gateways"].map((item, i) => (
+                    <div key={i} className="flex items-center gap-4 text-xs text-slate-500 font-bold uppercase tracking-widest">
+                      <CheckCircle2 size={16} className="text-emerald-500 flex-shrink-0" /> {item}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
           {/* AMDOX CARD */}
           <motion.div className="group relative p-12 rounded-[3.5rem] bg-slate-900/40 border border-slate-800 hover:border-blue-500/30 transition-all shadow-2xl overflow-hidden">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
               <div>
                 <h3 className="text-4xl font-black tracking-tight uppercase group-hover:text-blue-400 transition-colors italic">AMDOX</h3>
-                <p className="text-blue-500 font-black text-sm mt-2 uppercase tracking-widest">Full-Stack Java Intern • 2026</p>
+                <p className="text-blue-500 font-black text-sm mt-2 uppercase tracking-widest">Full-Stack Software Engineer • Present</p>
               </div>
             </div>
 
             <div className="grid lg:grid-cols-2 gap-20 items-center">
               <div className="space-y-8">
                 <p className="text-slate-400 text-xl leading-relaxed">
-                  Engineered an enterprise-grade <span className="text-white font-bold italic">Task Management Tool</span>. Optimized complex data workflows and mastered production Git ecosystems.
+                  Implementing scalable backend architectures and robust full-stack solutions to drive <span className="text-white font-bold italic">enterprise-level applications</span> and reduce data retrieval latency.
                 </p>
                 <div className="space-y-4">
-                  {["Developed RESTful APIs", "Optimized MySQL indexing", "Mastered Git workflows"].map((item, i) => (
+                  {["Developed secure RESTful APIs (Java/Spring)", "Optimized complex SQL database queries", "Spearheaded frontend component integration"].map((item, i) => (
                     <div key={i} className="flex items-center gap-4 text-xs text-slate-500 font-bold uppercase tracking-widest">
                       <CheckCircle2 size={16} className="text-blue-500" /> {item}
                     </div>
@@ -130,13 +157,12 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* AMDOX CERTIFICATES (Hardcoded paths) */}
               <div className="relative h-[250px] md:h-[300px] w-full group/gallery">
                 <motion.div whileHover={{ x: -30, rotate: -8, zIndex: 30 }} className="absolute top-12 right-0 w-[90%] aspect-video rounded-3xl bg-slate-800 border border-slate-700 overflow-hidden shadow-2xl transition-all opacity-40 group-hover/gallery:opacity-100 z-10">
                   <img src="/kartikkumar.github.io/amdox-training.jpeg" alt="Training" className="w-full h-full object-cover" />
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05, zIndex: 40 }} className="absolute top-0 left-0 w-[90%] aspect-video rounded-3xl bg-slate-950 border border-blue-500/30 overflow-hidden shadow-2xl transition-all z-20">
-                  <img src="/kartikkumar.github.io/amdox-intern.jpeg" alt="Internship" className="w-full h-full object-cover" />
+                  <img src="/kartikkumar.github.io/amdox-intern.jpeg" alt="Engineering" className="w-full h-full object-cover" />
                 </motion.div>
               </div>
             </div>
@@ -147,7 +173,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
               <div>
                 <h3 className="text-4xl font-black tracking-tight uppercase group-hover:text-indigo-400 transition-colors italic">IBM</h3>
-                <p className="text-indigo-500 font-black text-sm mt-2 uppercase tracking-widest">Cybersecurity Intern • Jan 2025 - Mar 2025</p>
+                <p className="text-indigo-500 font-black text-sm mt-2 uppercase tracking-widest">Network Security Consultant</p>
               </div>
               <ShieldCheck className="text-indigo-500/50 hidden md:block" size={48} />
             </div>
@@ -155,10 +181,10 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-20 items-center">
               <div className="space-y-8">
                 <p className="text-slate-400 text-xl leading-relaxed">
-                  Conducted threat analysis and successfully implemented <span className="text-white font-bold italic">defensive measures</span> on simulated networks, improving system resilience.
+                  Provided specialized network security consulting, focusing on proactive threat mitigation, vulnerability management, and <span className="text-white font-bold italic">defensive architectural strengthening</span>.
                 </p>
                 <div className="space-y-4">
-                  {["Threat Analysis & Mitigation", "Network Breach Counterstrategies", "Security Documentation"].map((item, i) => (
+                  {["Spearheaded enterprise threat analysis", "Designed advanced network breach simulations", "Engineered custom automated Python/Wireshark utilities"].map((item, i) => (
                     <div key={i} className="flex items-center gap-4 text-xs text-slate-500 font-bold uppercase tracking-widest">
                       <CheckCircle2 size={16} className="text-indigo-500" /> {item}
                     </div>
@@ -166,7 +192,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* IBM CERTIFICATE (Hardcoded path) */}
               <div className="relative h-[250px] md:h-[300px] w-full">
                 <motion.div whileHover={{ scale: 1.05 }} className="w-full h-full rounded-3xl bg-slate-950 border border-indigo-500/30 overflow-hidden shadow-2xl transition-all">
                   <img src="/kartikkumar.github.io/ibm-cert.jpeg" alt="IBM Certificate" className="w-full h-full object-cover" />
@@ -184,30 +209,73 @@ export default function Home() {
           <Code2 size={32} /> PROJECTS
         </h2>
 
-        <motion.div className="group relative bg-slate-900/40 border border-slate-800 rounded-[3.5rem] overflow-hidden p-12 hover:border-purple-500/30 transition-all shadow-2xl">
-          <Sparkles className="text-purple-500/5 absolute -top-10 -right-10" size={250} />
-          
-          <div className="flex justify-between items-start mb-6 relative z-10">
-            <div>
-              <h3 className="text-4xl font-black italic tracking-tight uppercase group-hover:text-purple-400 transition-colors">PrepAI</h3>
-              <p className="text-purple-500 font-bold text-sm mt-2 uppercase tracking-widest">AI-Powered Interview Platform • Nov 2025 - Present</p>
+        <div className="grid gap-8">
+          {/* PREPAI */}
+          <motion.div className="group relative bg-slate-900/40 border border-slate-800 rounded-[3.5rem] overflow-hidden p-12 hover:border-purple-500/30 transition-all shadow-2xl">
+            <Sparkles className="text-purple-500/5 absolute -top-10 -right-10" size={250} />
+            <div className="flex justify-between items-start mb-6 relative z-10">
+              <div>
+                <h3 className="text-4xl font-black italic tracking-tight uppercase group-hover:text-purple-400 transition-colors">PrepAI</h3>
+                <p className="text-purple-500 font-bold text-sm mt-2 uppercase tracking-widest">Enterprise Sentiment Analysis Engine</p>
+              </div>
             </div>
-          </div>
+            <p className="text-slate-400 mb-10 leading-relaxed text-lg max-w-3xl relative z-10">
+              Architected and deployed an AI-powered interview preparation platform. Developed a high-throughput sentiment analysis module capable of processing real-time user inputs to deliver predictive performance analytics and reduce processing latency.
+            </p>
+            <div className="flex flex-wrap gap-3 mb-10 relative z-10">
+              {["Java", "Spring Boot", "Next.js", "AI/NLP", "Tailwind CSS"].map(t => (
+                <span key={t} className="text-[10px] font-black px-4 py-2 bg-white/5 text-slate-300 rounded-xl border border-white/10 uppercase tracking-widest">{t}</span>
+              ))}
+            </div>
+            <a href="https://github.com/kartikkumar925800" className="inline-flex items-center gap-3 text-white font-black hover:text-purple-400 transition-all text-sm uppercase tracking-[0.2em] relative z-10">
+              View Architecture <ExternalLink size={18} />
+            </a>
+          </motion.div>
 
-          <p className="text-slate-400 mb-10 leading-relaxed text-lg max-w-3xl relative z-10">
-            Leveraging <span className="text-white font-bold">Natural Language Processing (NLP)</span> and Machine Learning to provide customized interview practice. Designed to solve the limitations of traditional prep by offering real-time, actionable feedback based on user profiles.
-          </p>
-          
-          <div className="flex flex-wrap gap-3 mb-10 relative z-10">
-            {["Java", "JavaScript", "SQL", "NLP", "Machine Learning"].map(t => (
-              <span key={t} className="text-[10px] font-black px-4 py-2 bg-white/5 text-slate-300 rounded-xl border border-white/10 uppercase tracking-widest">{t}</span>
-            ))}
-          </div>
-          
-          <a href="https://github.com/kartikkumar925800" className="inline-flex items-center gap-3 text-white font-black hover:text-purple-400 transition-all text-sm uppercase tracking-[0.2em] relative z-10">
-            View Source Code <ExternalLink size={18} />
-          </a>
-        </motion.div>
+          {/* WHITEBOARD TO CODE */}
+          <motion.div className="group relative bg-slate-900/40 border border-slate-800 rounded-[3.5rem] overflow-hidden p-12 hover:border-pink-500/30 transition-all shadow-2xl">
+            <Code2 className="text-pink-500/5 absolute -top-10 -right-10" size={250} />
+            <div className="flex justify-between items-start mb-6 relative z-10">
+              <div>
+                <h3 className="text-4xl font-black italic tracking-tight uppercase group-hover:text-pink-400 transition-colors">Vision-to-Code</h3>
+                <p className="text-pink-500 font-bold text-sm mt-2 uppercase tracking-widest">Real-Time Translation Architecture</p>
+              </div>
+            </div>
+            <p className="text-slate-400 mb-10 leading-relaxed text-lg max-w-3xl relative z-10">
+              Engineered a sophisticated parsing system that converts raw whiteboard architectural sketches into deployable, object-oriented code structures. Utilized Java and Spring Boot to build a scalable backend API, significantly reducing developer prototyping timelines.
+            </p>
+            <div className="flex flex-wrap gap-3 mb-10 relative z-10">
+              {["Java", "Spring Boot", "REST APIs", "OOP", "System Architecture"].map(t => (
+                <span key={t} className="text-[10px] font-black px-4 py-2 bg-white/5 text-slate-300 rounded-xl border border-white/10 uppercase tracking-widest">{t}</span>
+              ))}
+            </div>
+            <a href="https://github.com/kartikkumar925800" className="inline-flex items-center gap-3 text-white font-black hover:text-pink-400 transition-all text-sm uppercase tracking-[0.2em] relative z-10">
+              View Architecture <ExternalLink size={18} />
+            </a>
+          </motion.div>
+
+          {/* PORTFOLIO RENOVATION */}
+          <motion.div className="group relative bg-slate-900/40 border border-slate-800 rounded-[3.5rem] overflow-hidden p-12 hover:border-blue-500/30 transition-all shadow-2xl">
+            <Layout className="text-blue-500/5 absolute -top-10 -right-10" size={250} />
+            <div className="flex justify-between items-start mb-6 relative z-10">
+              <div>
+                <h3 className="text-4xl font-black italic tracking-tight uppercase group-hover:text-blue-400 transition-colors">Frontend Architecture</h3>
+                <p className="text-blue-500 font-bold text-sm mt-2 uppercase tracking-widest">High-Performance Web Renovation</p>
+              </div>
+            </div>
+            <p className="text-slate-400 mb-10 leading-relaxed text-lg max-w-3xl relative z-10">
+              Led the complete architectural overhaul of a legacy web application, migrating the infrastructure to a modern stack. Achieved massive improvements in UI rendering speeds, cross-browser compatibility, and production layout stability.
+            </p>
+            <div className="flex flex-wrap gap-3 mb-10 relative z-10">
+              {["Next.js", "TypeScript", "Tailwind CSS v4", "Framer Motion", "Vercel CI/CD"].map(t => (
+                <span key={t} className="text-[10px] font-black px-4 py-2 bg-white/5 text-slate-300 rounded-xl border border-white/10 uppercase tracking-widest">{t}</span>
+              ))}
+            </div>
+            <a href="https://github.com/kartikkumar925800/kartikkumar.github.io.git" className="inline-flex items-center gap-3 text-white font-black hover:text-blue-400 transition-all text-sm uppercase tracking-[0.2em] relative z-10">
+              View Source Code <ExternalLink size={18} />
+            </a>
+          </motion.div>
+        </div>
       </section>
 
       {/* FOOTER */}
